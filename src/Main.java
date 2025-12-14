@@ -144,7 +144,7 @@ public class Main {
         }
     }
 
-    private void createDefaultAdmin() {
+    private void createDefaultAdmin() { //Создание начальново администратора
         state.users.clear();
         state.users.add(new User("admin", "admin", UserRole.ROLE_ADMIN));
         if (!saveUsers()) {
