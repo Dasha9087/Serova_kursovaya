@@ -230,7 +230,7 @@ public class Main {
         pressAnyKeyToContinue();
     }
 
-    private void editUser() {
+    private void editUser() { // Метод редактирования данных пользователя
         if (state.users.isEmpty()) {
             System.out.println("Пользователь не найден");
             pressAnyKeyToContinue();
@@ -298,7 +298,7 @@ public class Main {
         }
     }
 
-    private void deleteUser() {
+    private void deleteUser() { // Метод удаления данных пользователя
         if (state.users.isEmpty()) {
             System.out.println("Пользователь не найден");
             pressAnyKeyToContinue();
